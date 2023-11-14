@@ -1,0 +1,7 @@
+{
+  "name": "CuisinKoala",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

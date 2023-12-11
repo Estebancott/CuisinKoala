@@ -1,0 +1,15 @@
+<ion-content>
+  <ion-slides pager="true" [options]="slideOptions">
+    <ion-slide *ngFor="let card of cards">
+      <ion-card>
+        <img [src]="card.imageURL" alt="Card Image">
+        <ion-card-header>
+          <ion-card-title>{{ card.title }}</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          {{ card.description }}
+        </ion-card-content>
+      </ion-card>
+    </ion-slide>
+  </ion-slides>
+</ion-content>

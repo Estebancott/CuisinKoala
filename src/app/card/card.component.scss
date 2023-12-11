@@ -1,0 +1,24 @@
+ion-content {
+    ion-slides {
+      display: flex;
+      flex-direction: row; // Disposition horizontale
+      width: 100%; // Pour occuper la largeur complète de l'écran
+    }
+  
+    ion-slide {
+      width: 100%; // Largeur de chaque carte
+      max-width: 300px; // Largeur maximale de chaque carte (ajustez selon vos besoins)
+      margin-right: 10px; // Marge entre chaque carte (ajustez selon vos besoins)
+    }
+  
+    ion-card {
+      width: 100%; // Assurez-vous que la carte occupe toute la largeur de l'ion-slide
+    }
+  
+    img {
+      width: 100%; // Assurez-vous que l'image à l'intérieur de la carte occupe toute la largeur
+      height: auto; // Ajuste automatiquement la hauteur en fonction de la largeur
+      border-radius: 8px; // Ajoutez une bordure arrondie à l'image si nécessaire
+    }
+  }
+  

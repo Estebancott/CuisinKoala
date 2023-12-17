@@ -1,4 +1,4 @@
-  .left-list {
+.left-list {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,11 +56,38 @@
     justify-content: center;
     align-items: flex-end;
     position: absolute;
-    bottom: 100px;
+    bottom: 115px;
     width: 100%;
   }
   
   ion-card {
     margin-top: 75px; 
   }
+  .add-ion-fab-button {
+    width: 15px; 
+    height: 15px; 
+    margin-left: 60px;
+  }
+
+  .reduce-ion-fab-button {
+    width: 15px; 
+    height: 15px; 
+    margin-left: 80px;
+  }
+
+  .delete-ion-fab-button {
+    width: 15px; 
+    height: 15px; 
+    margin-left: -30px;
+  }
+  
+  .bottom-right {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+  }
+  
   

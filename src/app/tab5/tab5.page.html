@@ -1,13 +1,58 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>tab5</ion-title>
+    <ion-title>
+      <ion-text>
+        <span class="title-frigo">Mon frigo   </span>
+        <img src="assets/icon/Fridge.svg" alt="logo frigo" width="30" height="30">
+      </ion-text>
+    </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">tab5</ion-title>
+      <ion-title size="large">
+        <ion-text>
+          <span>Mon frigo</span>
+          <img src="assets/icon/Fridge.svg" alt="logo frigo" width="75" height="75">
+        </ion-text>
+      </ion-title>
     </ion-toolbar>
   </ion-header>
+  <div class="left-list">
+    <ul>
+      <li class="title-item">Aliments</li><br><br><br>
+      <li>Lait</li>
+      <li>Oeufs</li>
+      <li>Beurre</li>
+      <li>Fromage</li>
+      <li>Pâtes</li>
+      <li>Riz</li>
+      <li>Tomates</li>
+      <li>Poulet</li>
+      <li>Crème fraiche</li>
+    </ul>
+  </div>
+  <div class="right-list">
+    <ul>
+      <li class="title-item">Quantité</li><br><br><br>
+      <li>1 L</li>
+      <li>3</li>
+      <li>400 g</li>
+      <li>200 g</li>
+      <li>1,5 kg</li>
+      <li>1 kg</li>
+      <li>300 g</li>
+      <li>260 g</li>
+      <li>50 cl</li>
+    </ul>
+  </div>
+  <div class="bottom-center">
+      <ion-button expand="block" routerLink="/tab4">
+        <ion-icon slot="start" src="assets/icon/Edit.svg"></ion-icon>
+        Modifier
+      </ion-button>
+  </div>
+
 </ion-content>

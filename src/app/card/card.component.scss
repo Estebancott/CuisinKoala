@@ -1,24 +1,29 @@
 ion-content {
   ion-slides {
-    --ion-grid-padding: 0; /* Supprime la marge intérieure par défaut d'Ionic */
     display: flex;
-    flex-direction: row; /* Disposition horizontale */
-    width: 100%; /* Pour occuper la largeur complète de l'écran */
+    flex-direction: row;
+    width: 100%;
+    overflow-x: auto; 
+    white-space: nowrap; 
   }
 
   ion-slide {
-    width: 100%; /* Largeur de chaque carte */
-    max-width: 300px; /* Largeur maximale de chaque carte (ajustez selon vos besoins) */
-    margin-right: 10px; /* Marge entre chaque carte (ajustez selon vos besoins) */
+    width: 300px; /* Ajustez la largeur de chaque slide selon vos besoins */
+    margin-right: 10px;
   }
 
   ion-card {
-    width: 100%; /* Assurez-vous que la carte occupe toute la largeur de l'ion-slide */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
   }
 
+
   img {
-    width: 100%; /* Assurez-vous que l'image à l'intérieur de la carte occupe toute la largeur */
-    height: 100%; /* Ajuste automatiquement la hauteur en fonction de la largeur */
-    border-radius: 8px; /* Ajoutez une bordure arrondie à l'image si nécessaire */
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    object-fit: cover;
   }
 }

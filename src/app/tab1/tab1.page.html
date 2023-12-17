@@ -1,16 +1,19 @@
 <ion-content [fullscreen]="true">
 
   
-  <ion-header>
+<ion-header class="sticky">
+  <ion-toolbar>
+    <ion-title size="large">Accueil</ion-title>
+    <ion-buttons>
+      <app-profil></app-profil>
+      <app-cuisinkoala></app-cuisinkoala>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
 
-    <ion-toolbar>
-      <ion-title size="large">Accueil</ion-title>
-    </ion-toolbar>
-  </ion-header>
 
+<h1>Plats du jour</h1>
 <app-card></app-card>
-
-  
 
 
   <ion-list>

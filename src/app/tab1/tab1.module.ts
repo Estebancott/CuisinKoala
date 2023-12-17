@@ -5,6 +5,8 @@ import { FormsModule } from '@angular/forms';
 import { Tab1Page } from './tab1.page';
 import { ExploreContainerComponentModule } from '../explore-container/explore-container.module';
 import { CardModule } from '../card/card.module';
+import { ProfilModule} from '../profil/profil.module';
+import { CuisinkoalaModule} from '../cuisinkoala/cuisinkoala.module';
 
 import { Tab1PageRoutingModule } from './tab1-routing.module';
 
@@ -15,7 +17,9 @@ import { Tab1PageRoutingModule } from './tab1-routing.module';
     FormsModule,
     ExploreContainerComponentModule,
     Tab1PageRoutingModule,
-    CardModule
+    CardModule,
+    ProfilModule,
+    CuisinkoalaModule
   ],
   declarations: [Tab1Page]
 })

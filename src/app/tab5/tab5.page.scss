@@ -1,0 +1,63 @@
+    .left-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-left: -150px;
+  }
+  
+  .left-list ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .left-list li {
+    margin-bottom: 8px;
+    display: flex;
+    align-items: flex-start;
+  }
+  .title-item {
+    font-weight: bold; 
+    font-size: 20px; 
+    margin-bottom: 16px; 
+  }
+  .right-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-right: -150px;
+    margin-top: -560px;
+  }
+  
+  .right-list ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .right-list li {
+    margin-bottom: 8px;
+    display: flex;
+    align-items: flex-start;
+  }
+  
+
+  .title-frigo {
+    font-weight: bold; 
+    font-size: 20px; 
+  }
+  .bottom-center {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: absolute;
+    bottom: 100px;
+    width: 100%;
+  }
+  
+
+  

@@ -3,6 +3,5 @@
 
 # Installation 
 Lorsque vous clonez le repo, aller à sa racine puis éxecutez `npm install` cela installera les dépendances dont le projet à besoin pour fonctionner.
-
-## To do
-Enlever le component Camera
+> [!WARNING]  
+> il faut faire le `npm install` à chaque début de "session codage".

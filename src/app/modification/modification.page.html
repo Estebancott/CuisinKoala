@@ -83,12 +83,12 @@
   <div class="right-list">
     <ul>
       <li class="title-item">Quantité</li><br><br><br>
-      <li>1 L <ion-fab>
-        <ion-fab-button class="add-ion-fab-button">
+      <li>{{Valeur}} L <ion-fab>
+        <ion-fab-button class="add-ion-fab-button" (click)="incrementer(Valeur)">
           <ion-icon name="add"></ion-icon>
         </ion-fab-button>
       </ion-fab><ion-fab>
-        <ion-fab-button class="reduce-ion-fab-button">
+        <ion-fab-button class="reduce-ion-fab-button" (click)="decrementer()">
           <ion-icon name="remove"></ion-icon>
         </ion-fab-button>
       </ion-fab></li>

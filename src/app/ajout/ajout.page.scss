@@ -1,0 +1,74 @@
+.input1 {
+    font-size: 14px;
+    position: absolute; 
+    left: 18%;
+    bottom: 450px; 
+    --background: transparent; 
+    font-weight: bold;  
+    width: 250px;
+  }
+  
+.custom-input2 {
+    position: absolute;
+    bottom: 350px;
+    right: 165px;
+    --background: transparent; 
+    width: 170px;
+  }
+  .input3 {
+    position: absolute;
+    bottom: 350px;
+    right: 35px;
+    --background: transparent; 
+    width: 120px;
+  }
+
+.custom-input4 {
+    position: absolute;
+    bottom: 233px;
+    right: 10px;
+    width: 200px;
+  }
+  
+  .input4 {
+    font-size: 14px;
+    position: absolute; 
+    bottom: 250px; 
+    right: 220px; 
+    font-weight: bold;
+    
+  }
+  
+  .bottom-right {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: absolute;
+    bottom: 88px;
+    width: 100%;
+  }
+
+  .bottom-center {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: absolute;
+    bottom: 160px;
+    width: 100%;
+  }
+
+  body {
+    width: 93%; 
+    height: 48%; 
+    background-color: rgb(61, 60, 60);
+    bottom: 210px; 
+    right: 15px;
+    border-radius: 50px;
+  }
+  
+  span {
+    position: relative; 
+    z-index: 9999; 
+  }
+  
+  

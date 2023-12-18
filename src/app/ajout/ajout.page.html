@@ -10,4 +10,36 @@
       <ion-title size="large">Ajouter un aliment</ion-title>
     </ion-toolbar>
   </ion-header>
+  <ion-item class="input1">
+     <ion-input label="Nom de l'aliment"></ion-input>
+  </ion-item>
+  <ion-item class="custom-input2">
+    <ion-input label="Quantité" type="number" placeholder="000000"></ion-input>
+  </ion-item>
+  <ion-item class="input3">
+    <ion-label>Unité</ion-label>
+    <ion-select>
+      <ion-select-option value="option1">Kg</ion-select-option>
+      <ion-select-option value="option2">g</ion-select-option>
+      <ion-select-option value="option3">L</ion-select-option>
+      <ion-select-option value="option4">cL</ion-select-option>
+      <ion-select-option value="option5">unité(s)</ion-select-option>
+    </ion-select>
+  </ion-item>
+  <span class="input4">Date de péremption </span>
+  <ion-input label="Format: JJ/MM/AAAA" label-placement="floating" fill="outline" placeholder="Entrez la date au format" class="custom-input4"></ion-input>
+<body>
+</body>
+  <div class="bottom-center">
+    <ion-button expand="block" routerLink="/tab5">
+      <ion-icon slot="start" src="assets/icon/Checkbox.svg"></ion-icon>
+      Valider
+    </ion-button>
+</div>
+  <div class="bottom-right">
+    <ion-button expand="block" routerLink="/modification">
+      <ion-icon slot="start" src="assets/icon/Back.svg"></ion-icon>
+      Retour
+    </ion-button>
+  </div>
 </ion-content>

@@ -27,17 +27,26 @@
 
 
 ion-content {
+  --background: url('./assets/fond_bamboo.svg') no-repeat center center fixed;
+  --background-size: cover;
     --ion-background-color: #448D5E;
-     background: url('./assets/fond_bamboo.png') no-repeat center center fixed;
-     background-size: cover;
   }
   
   ion-page {
+    --ion-background: url('./assets/fond_bamboo.svg') no-repeat center center fixed;
+    background-size: cover;
     --ion-background-color: #448D5E; 
   }
   
   ion-app {
+    background: url('./assets/fond_bamboo.svg') no-repeat center center fixed;
+    background-size: cover;
     --ion-background-color: #448D5E; 
     
   }
   
+// .hydrated {
+//   --ion-background-color: #448D5E;
+//   background: url('./assets/fond_bamboo.svg') no-repeat center center fixed;
+//   background-size: cover;
+// }

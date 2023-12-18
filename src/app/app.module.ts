@@ -20,11 +20,6 @@ import { getPerformance, providePerformance } from '@angular/fire/performance';
 import { getStorage, provideStorage } from '@angular/fire/storage';
 import { getRemoteConfig, provideRemoteConfig } from '@angular/fire/remote-config';
 
-// import { AngularFireModule } from '@angular/fire/compat';
-// import { AngularFireDatabaseModule } from '@angular/fire/compat/database';
-// import { AngularFireAuthModule } from '@angular/fire/compat/auth';
-// import { AngularFireStorageModule } from '@angular/fire/compat/storage';
-
 export const firebaseConfig = {
   apiKey: "AIzaSyD7x7EFRqyZ-yDeBgLt--a40Art4MzzLf0",
   authDomain: "cuisin-koala.firebaseapp.com",

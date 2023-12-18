@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "cuisinkoala": {
+      "hosting": {
+        "app": [
+          "cuisinkoala"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "cuisinkoala"
+  }
+}

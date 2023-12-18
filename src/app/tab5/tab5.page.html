@@ -1,23 +1,11 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      <ion-text>
-        <span class="title-frigo">Mon frigo   </span>
-        <img src="assets/icon/Fridge.svg" alt="logo frigo" width="30" height="30">
-      </ion-text>
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
+  <ion-header class="sticky">
     <ion-toolbar>
-      <ion-title size="large">
-        <ion-text>
-          <span>Mon frigo</span>
-          <img src="assets/icon/Fridge.svg" alt="logo frigo" width="75" height="75">
-        </ion-text>
-      </ion-title>
+      <ion-title size="large">Mon frigo</ion-title>
+      <ion-buttons>
+        <app-profil></app-profil>
+        <app-cuisinkoala></app-cuisinkoala>
+      </ion-buttons>
     </ion-toolbar>
   </ion-header>
   <ion-card>

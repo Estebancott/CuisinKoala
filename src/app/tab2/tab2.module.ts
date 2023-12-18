@@ -6,6 +6,8 @@ import { Tab2Page } from './tab2.page';
 import { ExploreContainerComponentModule } from '../explore-container/explore-container.module';
 
 import { Tab2PageRoutingModule } from './tab2-routing.module';
+import { ProfilModule } from '../profil/profil.module';
+import { CuisinkoalaModule } from '../cuisinkoala/cuisinkoala.module';
 
 @NgModule({
   imports: [
@@ -13,7 +15,9 @@ import { Tab2PageRoutingModule } from './tab2-routing.module';
     CommonModule,
     FormsModule,
     ExploreContainerComponentModule,
-    Tab2PageRoutingModule
+    Tab2PageRoutingModule,
+    ProfilModule,
+    CuisinkoalaModule
   ],
   declarations: [Tab2Page]
 })

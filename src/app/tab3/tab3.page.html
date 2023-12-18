@@ -1,18 +1,15 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>Scan</ion-title>
-  </ion-toolbar>
-</ion-header>
 
-<ion-content>
-  <ion-header collapse="condense">
+<ion-content [fullscreen]="true">
+  <ion-header class="sticky">
     <ion-toolbar>
       <ion-title size="large">Scan</ion-title>
+      <ion-buttons>
+        <app-profil></app-profil>
+        <app-cuisinkoala></app-cuisinkoala>
+      </ion-buttons>
     </ion-toolbar>
   </ion-header>
-</ion-content>
 
-<ion-content>
   <ion-fab vertical="bottom" horizontal="center" slot="fixed">
     <ion-fab-button (click)="addPhotoToGallery()">
       <ion-icon name="camera"></ion-icon>

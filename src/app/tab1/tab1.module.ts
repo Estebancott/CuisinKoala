@@ -7,6 +7,7 @@ import { ExploreContainerComponentModule } from '../explore-container/explore-co
 import { CardModule } from '../card/card.module';
 import { ProfilModule} from '../profil/profil.module';
 import { CuisinkoalaModule} from '../cuisinkoala/cuisinkoala.module';
+import { LoginFormModule } from '../login-form/login-form.module';
 
 import { Tab1PageRoutingModule } from './tab1-routing.module';
 
@@ -19,8 +20,10 @@ import { Tab1PageRoutingModule } from './tab1-routing.module';
     Tab1PageRoutingModule,
     CardModule,
     ProfilModule,
-    CuisinkoalaModule
+    CuisinkoalaModule,
+    LoginFormModule
   ],
   declarations: [Tab1Page]
 })
-export class Tab1PageModule {}
+export class Tab1PageModule {
+}

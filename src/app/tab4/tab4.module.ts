@@ -9,16 +9,18 @@ import { Tab4PageRoutingModule } from './tab4-routing.module';
 import { Tab4Page } from './tab4.page';
 import { ProfilModule } from '../profil/profil.module';
 import { CuisinkoalaModule } from '../cuisinkoala/cuisinkoala.module';
+import { Card2Module } from "../card2/card2.module";
 
 @NgModule({
-  imports: [
-    CommonModule,
-    FormsModule,
-    IonicModule,
-    Tab4PageRoutingModule,
-    ProfilModule,
-    CuisinkoalaModule
-  ],
-  declarations: [Tab4Page]
+    declarations: [Tab4Page],
+    imports: [
+        CommonModule,
+        FormsModule,
+        IonicModule,
+        Tab4PageRoutingModule,
+        ProfilModule,
+        CuisinkoalaModule,
+        Card2Module,
+    ]
 })
 export class Tab4PageModule {}

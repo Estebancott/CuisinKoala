@@ -3,7 +3,6 @@
     <ion-title>
       <ion-text>
         <span class="title-frigo">Modification   </span>
-        <img src="assets/icon/Fridge.svg" alt="logo frigo" width="30" height="30">
       </ion-text>
     </ion-title>
   </ion-toolbar>
@@ -15,7 +14,6 @@
       <ion-title size="large">
         <ion-text>
           <span>Modification</span>
-          <img src="assets/icon/Fridge.svg" alt="logo frigo" width="75" height="75">
         </ion-text>
       </ion-title>
     </ion-toolbar>
@@ -83,12 +81,12 @@
   <div class="right-list">
     <ul>
       <li class="title-item">Quantité</li><br><br><br>
-      <li>{{Valeur}} L <ion-fab>
-        <ion-fab-button class="add-ion-fab-button" (click)="incrementer(Valeur)">
+      <li>1 L <ion-fab>
+        <ion-fab-button class="add-ion-fab-button" >
           <ion-icon name="add"></ion-icon>
         </ion-fab-button>
       </ion-fab><ion-fab>
-        <ion-fab-button class="reduce-ion-fab-button" (click)="decrementer()">
+        <ion-fab-button class="reduce-ion-fab-button" >
           <ion-icon name="remove"></ion-icon>
         </ion-fab-button>
       </ion-fab></li>

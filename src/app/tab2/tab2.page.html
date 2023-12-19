@@ -1,12 +1,17 @@
 <ion-content [fullscreen]="true">
   <ion-header class="sticky">
     <ion-toolbar>
-      <ion-title size="large">Test-2</ion-title>
-      <ion-buttons>
+      <ion-title size="large">Rechercher une recette</ion-title>
+      <ion-buttons slot="end">
         <app-profil></app-profil>
         <app-cuisinkoala></app-cuisinkoala>
       </ion-buttons>
+      <ion-searchbar placeholder="Rechercher dans le profil" color="primary"></ion-searchbar>
     </ion-toolbar>
   </ion-header>
   <img alt="Logo" src="../../assets/logo.svg"/>
+  <div *ngIf="result">
+    <pre>{{ result | json }}</pre>
+  </div>
+  <ion-button (click)="testReceiptParser()">Appeler l'API</ion-button>
 </ion-content>

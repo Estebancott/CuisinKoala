@@ -2,13 +2,13 @@
   <ion-header class="sticky">
     <ion-toolbar>
       <ion-title size="large">Scan</ion-title>
-      <ion-buttons>
+      <ion-buttons slot="end">
         <app-profil></app-profil>
         <app-cuisinkoala></app-cuisinkoala>
       </ion-buttons>
     </ion-toolbar>
   </ion-header>
-
+  
   <ion-grid>
     <ion-row>
       <ion-col size="6" *ngFor="let photo of photoService.photos; index as position">
@@ -16,6 +16,7 @@
       </ion-col>
     </ion-row>
   </ion-grid>
+
 
   <ion-fab vertical="bottom" horizontal="center" slot="fixed">
     <ion-fab-button (click)="addPhotoToGallery()">

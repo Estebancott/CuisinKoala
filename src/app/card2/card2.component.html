@@ -1,0 +1,36 @@
+<ion-content>
+  <ion-slides>
+    <ion-slide *ngFor="let card2 of cards2">
+      <ion-card>
+        <div id="click-trigger">
+          <img [alt]="card2.title" [src]="card2.image" />
+        </div>
+        <ion-popover trigger="click-trigger" triggerAction="click">
+          <ng-template>
+            <ion-content class="ion-padding">Hello World!</ion-content>
+          </ng-template>
+        </ion-popover>
+        
+        <ion-card-header>
+          <ion-card-title>{{ card2.title }}</ion-card-title>
+          <ion-card-subtitle>{{ card2.subtitle }}</ion-card-subtitle>
+        </ion-card-header>
+        <ion-card-content>
+          {{ card2.description }}
+          <p>Pour {{ card2.serves }} personnes</p>
+          <div *ngIf="card2.ingredients">
+            <h2>Ingrédients :</h2>
+            <ul>
+              <li *ngFor="let ingredient of card2.ingredients">
+                {{ ingredient.name }}: {{ ingredient.quantity }}
+              </li>
+            </ul>
+          </div>
+        </ion-card-content>
+      </ion-card>
+    </ion-slide>
+  </ion-slides>
+  <ion-infinite-scroll (ionInfinite)="onIonInfinite($event)">
+    <ion-infinite-scroll-content></ion-infinite-scroll-content>
+  </ion-infinite-scroll>
+</ion-content>

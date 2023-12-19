@@ -19,11 +19,12 @@ import { getMessaging, provideMessaging } from '@angular/fire/messaging';
 import { getPerformance, providePerformance } from '@angular/fire/performance';
 import { getStorage, provideStorage } from '@angular/fire/storage';
 import { getRemoteConfig, provideRemoteConfig } from '@angular/fire/remote-config';
+import { ReactiveFormsModule } from '@angular/forms';
 
 export const firebaseConfig = {
   apiKey: "AIzaSyD7x7EFRqyZ-yDeBgLt--a40Art4MzzLf0",
   authDomain: "cuisin-koala.firebaseapp.com",
-  databaseURL: "https://cuisin'koala.firebaseio.com",
+  databaseURL: "https://cuisin-koala-default-rtdb.europe-west1.firebasedatabase.app/",
   projectId: "cuisin-koala",
   storageBucket: "cuisin-koala.appspot.com",
   messagingSenderId: "43820494066",

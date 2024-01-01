@@ -11,7 +11,7 @@ export class Card2Component  implements OnInit {
       title: 'Pate à la carbonara',
       subtitle: '#Ingrédients dans votre frigo',
       description: 'Découvrez la recette des pâtes à la carbonara',
-      image: '../assets/plat/carbonara.jpg',
+      image: '../assets/carbonara.jpg',
       serves: 4,
       ingredients: [
         { name: 'Spaghetti', quantity: '500g' },
@@ -26,7 +26,7 @@ export class Card2Component  implements OnInit {
       title: 'Ratatouille',
       subtitle: '#Ingrédients dans votre frigo',
       description: 'Découvrez la recette de notre délicieuse ratatouille',
-      image: '../assets/plat/ratatouille.jpg',
+      image: '../assets/ratatouille.jpg',
       serves: 6,
       ingredients: [
         { name: 'Aubergines', quantity: '2' },
@@ -45,7 +45,7 @@ export class Card2Component  implements OnInit {
       title: 'Couscous',
       subtitle: '#Ingrédients dans votre frigo',
       description: 'Découvrez la recette de notre magnifique couscous',
-      image: '../assets/plat/couscous.jpg',
+      image: '../assets/coucous.jpg',
       serves: 5,
       ingredients: [
         { name: 'Semoule de couscous', quantity: '500g' },

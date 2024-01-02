@@ -1,4 +1,5 @@
 # CuisinKoala
+![page accueil.svg](src%2Fassets%2Fpage%20accueil.svg)
 Ça CuisinKoala ? Le Koala qui analyse votre liste de courses et vous propose de super plats.
 
 # Installation 

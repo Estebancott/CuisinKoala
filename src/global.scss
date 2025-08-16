@@ -28,6 +28,7 @@
 
 ion-content {
   --ion-background-color: #448D5E;
+  color: #ffffff;
 }
 
 ion-page {
@@ -52,4 +53,27 @@ ion-buttons {
 .container {
   display: flex;
   justify-content: space-between;
+}
+
+/* Renforcer le blanc pour les éléments courants du contenu */
+ion-content p,
+ion-content span,
+ion-content li,
+ion-content ion-card-content,
+ion-content ion-card-subtitle,
+ion-content ion-label,
+ion-content .left-list li,
+ion-content .right-list li {
+  color: #ffffff;
+}
+
+/* Conserver les titres en noir */
+ion-title,
+ion-toolbar ion-title,
+h1,
+h2,
+h3,
+ion-card-title,
+.title-item {
+  color: #000000 !important;
 }
